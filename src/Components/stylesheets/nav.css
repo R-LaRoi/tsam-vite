@@ -1,4 +1,5 @@
-.-nav {
+.-nav,
+.bg {
   background-color: transparent;
   position: fixed;
   z-index: 99;

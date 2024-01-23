@@ -79,3 +79,24 @@
     font-weight: 400;
   }
 }
+
+@media only screen and (min-width: 752px) and (max-width: 1300px) {
+  .header-text {
+    font-size: 6rem;
+    animation: slide-up-fade 3s forwards;
+    position: relative;
+    bottom: 250px;
+    color: #ffffffe3;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 800;
+    z-index: 99;
+    padding: 0rem;
+  }
+
+  .header-subtext {
+    margin-top: 0px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
