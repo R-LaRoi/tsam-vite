@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Visby-Bold";
+  src: url("./Components/assets/VisbyBold.ttf");
+}
+
+@font-face {
+  font-family: "Visby-Reg";
+  src: url("./Components/assets/VisbyRegular.ttf");
+}

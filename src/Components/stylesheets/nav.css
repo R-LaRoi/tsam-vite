@@ -1,0 +1,31 @@
+.-nav {
+  background-color: transparent;
+  position: fixed;
+  z-index: 99;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  color: rgb(177, 151, 151);
+  text-decoration: none;
+  font-size: 1.3rem;
+  gap: 30px;
+  font-family: inherit;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.initial {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.appt-btn:hover,
+.nav-list:hover,
+.i-list:hover {
+  color: rgb(252, 190, 103);
+  cursor: pointer;
+}

@@ -1,0 +1,165 @@
+.title {
+  color: rgba(136, 112, 112, 0.803);
+  text-transform: lowercase;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-left: 2rem;
+}
+
+.mission {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  letter-spacing: 2px;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  color: rgba(136, 112, 112, 0.803);
+  font-weight: 200;
+  height: 80vh;
+}
+
+.mission-img {
+  position: relative;
+  left: -40px;
+  top: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.description {
+  /* margin-top: -5rem; */
+  border-radius: 20px;
+  color: rgb(88, 82, 82);
+  padding: 5rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  border-left: 20px solid #b39b99;
+  /* background-color: rgba(198, 167, 154, 0.871); */
+  background-color: rgba(230, 207, 207, 0.803);
+}
+
+.-servtext {
+  border-radius: 0;
+
+  font-weight: 200;
+  position: relative;
+  /* bottom: 254px; */
+  color: rgb(106, 102, 102);
+  text-align: center;
+  line-height: 25px;
+  z-index: 99;
+  padding: 4.5rem;
+  font-size: 1.2rem;
+  border-top: 20px solid #b39b99;
+}
+
+.appt-btn {
+  margin-top: 20px;
+  padding: 12px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+  background-color: rgb(177, 151, 151);
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 800;
+
+  color: rgba(249, 245, 243, 0.871);
+}
+.serv-dsk-img {
+  width: 100%;
+}
+
+.-serv-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: rgb(118, 107, 107);
+  font-weight: 200;
+  padding: 5rem;
+  text-align: center;
+  gap: 75px;
+  background-color: rgba(222, 193, 193, 0.803);
+  /* margin-top: -5rem; */
+}
+
+.pkg {
+  padding: 2rem;
+  background-color: rgb(255, 255, 255);
+  /* background-color: rgba(202, 180, 170, 0.899); */
+  font-size: 1rem;
+  border-radius: 20px;
+  color: rgb(165, 156, 156);
+  /* color: #ffffffe3; */
+  border-left: 10px solid rgba(201, 183, 183, 0.803);
+}
+
+.serv-title {
+  margin-top: 1.5rem;
+  color: rgb(165, 156, 156);
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+@media only screen and (max-width: 460px) {
+  .mission-img {
+    display: none;
+  }
+  .mission {
+    display: grid;
+    grid-template-columns: 1fr;
+    letter-spacing: 2px;
+    padding: 0rem;
+    background-color: rgb(255, 255, 255);
+    color: rgba(136, 112, 112, 0.803);
+    font-weight: 200;
+    height: 55vh;
+  }
+
+  .description {
+    /* margin-top: -6rem; */
+    border-radius: 20px;
+    color: rgb(109, 105, 105);
+    padding: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    border-left: none;
+    background-color: transparent;
+  }
+
+  .-serv-options {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: rgb(118, 107, 107);
+    font-weight: 200;
+    padding: 2rem;
+    text-align: center;
+    gap: 75px;
+    /* margin-top: -5rem; */
+  }
+
+  .-servtext {
+    border-radius: 0;
+    background-color: rgba(198, 167, 154, 0.871);
+    font-weight: 200;
+    color: #ffffffe3;
+    text-align: center;
+    line-height: 25px;
+    z-index: 99;
+    padding: 2.6rem;
+    font-size: 1rem;
+    border-bottom: 20px solid rgba(230, 207, 207, 0.803);
+  }
+
+  .pkg {
+    padding: 1.3rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    border-radius: 10px;
+    color: rgb(165, 156, 156);
+    border-left: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-bottom: 10px solid rgba(230, 207, 207, 0.803);
+  }
+}
