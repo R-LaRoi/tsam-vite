@@ -11,7 +11,7 @@ export default function Services () {
   
 return(
 
-<>
+<section className='-serv-sect'>
     <h1 className='title'>mission</h1>
       <section className="mission">
     
@@ -69,7 +69,7 @@ The calm package focuses on baby massage (B.M) – B. M offers a warm & calm spa
   
 </section>
      </section>
-</>
+</section>
 )
 
 }

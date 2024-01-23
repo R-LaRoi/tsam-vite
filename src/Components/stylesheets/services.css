@@ -101,7 +101,41 @@
   letter-spacing: 0.8px;
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (min-width: 549px) and (max-width: 1024px) {
+  .mission-img {
+    display: none;
+  }
+
+  .mission {
+    display: grid;
+    grid-template-columns: 1fr;
+    letter-spacing: 2px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(136, 112, 112, 0.803);
+    font-weight: 200;
+    height: 65vh;
+  }
+  .-serv-options {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: rgb(118, 107, 107);
+    font-weight: 200;
+    padding: 2rem;
+    text-align: center;
+    gap: 75px;
+    /* margin-top: -5rem; */
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .mission-text {
+    padding-bottom: 0;
+  }
+  .-serv-sect {
+    margin-top: -25%;
+    position: relative;
+    z-index: 9;
+  }
   .mission-img {
     display: none;
   }
@@ -109,11 +143,10 @@
     display: grid;
     grid-template-columns: 1fr;
     letter-spacing: 2px;
-    padding: 0rem;
     background-color: rgb(255, 255, 255);
     color: rgba(136, 112, 112, 0.803);
     font-weight: 200;
-    height: 55vh;
+    height: 65vh;
   }
 
   .description {
@@ -121,7 +154,7 @@
     border-radius: 20px;
     color: rgb(109, 105, 105);
     padding: 2rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5;
     letter-spacing: 1.5px;
     border-left: none;
@@ -153,7 +186,7 @@
   }
 
   .pkg {
-    padding: 1.3rem;
+    padding: 2rem;
     background-color: rgb(255, 255, 255);
     font-size: 1rem;
     border-radius: 10px;
