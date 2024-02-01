@@ -33,7 +33,7 @@ return(
 
      <section className='services-'>
 <div> 
-   <h1 className='title'> services</h1>
+   <h1 className='title'> Services</h1>
 
      <img
         src={mdkids} className='serv-dsk-img'
@@ -48,7 +48,7 @@ Are you looking for effective support in managing your child's behaviour? Look n
 </div>
 
 <section className='-serv-options'>
-  For parents we provide 2 services.
+  For parents we provide two services; the Connection package & Calm package. 
 <div class="pkg">
 <img src={bulb} width={100}></img>
     <div className='serv-title'>CONNECTION PACKAGE</div>
@@ -59,16 +59,16 @@ Are you looking for effective support in managing your child's behaviour? Look n
   <div class="pkg">
       <img src={feet} width={100}></img>
 <div className='serv-title'>  Calm Package</div>  
-   <div>Baby Massage (B.M)</div>
+   <div>Baby Massage (BM)</div>
      
-The calm package focuses on baby massage (B.M) – B. M offers a warm & calm space for parents to connect with their little ones. B.M principles are based on attachment theory, power of touch & so forth. It has been evidenced to increase stimulation, muscle development, sleep & bond between parent & child.  </div>
+The calm package focuses on baby massage (BM) – BM offers a warm & calm space for parents to connect with their little ones. B.M principles are based on attachment theory, power of touch. It has been evidenced to increase stimulation, muscle development, sleep & bond between parent & child.  </div>
   
 
-  {/* <div class="pkg">  <img src={puzzle} width={100}></img>
+  <div class="pkg">  <img src={puzzle} width={100}></img>
      <div className='serv-title'>    Curious PACKAGE </div>
-   <div>Professional Development for Early Childhood Educators / Primary School Educators</div>
+   <div>Professional Development for Early & Primary School Educators</div>
      
- If you're an early childhood director/ centre & you're seeking professional development workshops; I tailor sessions based on the needs of the centre. Past workshops have focused on introduction to trauma, enhancing emotional/ social development; and the likes. </div> */}
+ If you're an early childhood centre & you're seeking professional development workshops; I tailor sessions based on the needs of the centre. Past workshops have focused on introduction to trauma, enhancing emotional and social development. </div>
 
 </section>
      </section>

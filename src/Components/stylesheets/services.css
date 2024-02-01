@@ -1,6 +1,6 @@
 .title {
   color: rgba(136, 112, 112, 0.803);
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   font-weight: 200;
   letter-spacing: 2px;
   margin-left: 2rem;

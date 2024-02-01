@@ -9,10 +9,10 @@ function Navb() {
                 TSC
             </div>
             <div className='nav-list'>
-                <NavLink to="/linkservice">Services</NavLink>
+                {/* <NavLink to="/linkservice">Services</NavLink> */}
         </div>
             <div className='nav-list'>
-                <NavLink to="/linkcontact">Connect</NavLink>
+                {/* <NavLink to="/linkcontact">Connect</NavLink> */}
             </div>
         </div>
     
