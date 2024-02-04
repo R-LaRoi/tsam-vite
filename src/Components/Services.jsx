@@ -8,6 +8,8 @@ import puzzle from './assets/2.png'
 import bulb from './assets/3.png'
 
 export default function Services () {
+
+    // const [modalShow, setModalShow] = React.useState(false);
   
 return(
 
@@ -40,15 +42,26 @@ return(
         />
   <div className='-servtext'>
 Are you looking for effective support in managing your child's behaviour? Look no further. We provide practical guidance backed by 10 plus years of experience in working with children and families. We offer three key services - discover if we are the right fit for your family by scheduling an appointment below. 
+   <div>
+    <ul className='servtxt-desc'>
+      <li> 
+         For parents we provide two services; the Connection package & Calm package. 
+         </li>
+   <li> For early childhood and primary school educators
+we offer the Curious package.</li>
+   </ul></div>
+<div>  
   
-<div>  <button className='appt-btn'>BOOK NOW</button></div>
+  <button className='appt-btn'>BOOK NOW</button></div>
                 </div> 
+
+
 
 
 </div>
 
 <section className='-serv-options'>
-  For parents we provide two services; the Connection package & Calm package. 
+  {/* For parents we provide two services; the Connection package & Calm package.  */}
 <div class="pkg">
 <img src={bulb} width={100}></img>
     <div className='serv-title'>CONNECTION PACKAGE</div>
