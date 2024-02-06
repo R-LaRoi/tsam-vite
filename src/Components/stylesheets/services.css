@@ -110,6 +110,10 @@
   letter-spacing: 0.8px;
 }
 
+.sub-title {
+  font-weight: 400;
+  text-decoration: underline;
+}
 @media only screen and (min-width: 549px) and (max-width: 1024px) {
   .mission-img {
     display: none;

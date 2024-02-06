@@ -65,21 +65,21 @@ we offer the Curious package.</li>
 <div class="pkg">
 <img src={bulb} width={100}></img>
     <div className='serv-title'>CONNECTION PACKAGE</div>
-   <div>Parenting Consults</div>  
+   <div className='sub-title'>Parenting Consultation</div>  
  The connection package focuses on parent- child relationship, family systems theory, and so forth to enhance parenting skills to better manage behaviours from a connection lens. </div>
   
   
   <div class="pkg">
       <img src={feet} width={100}></img>
 <div className='serv-title'>  Calm Package</div>  
-   <div>Baby Massage (BM)</div>
+   <div className='sub-title'>Baby Massage (BM)</div>
      
 The calm package focuses on baby massage (BM) – BM offers a warm & calm space for parents to connect with their little ones. B.M principles are based on attachment theory, power of touch. It has been evidenced to increase stimulation, muscle development, sleep & bond between parent & child.  </div>
   
 
   <div class="pkg">  <img src={puzzle} width={100}></img>
      <div className='serv-title'>    Curious PACKAGE </div>
-   <div>Professional Development for Early & Primary School Educators</div>
+    <div className='sub-title'>Professional Development for Early & Primary School Educators</div>
      
  If you're an early childhood centre & you're seeking professional development workshops; I tailor sessions based on the needs of the centre. Past workshops have focused on introduction to trauma, enhancing emotional and social development. </div>
 
