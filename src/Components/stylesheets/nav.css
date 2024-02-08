@@ -1,10 +1,21 @@
 .-nav,
 .bg {
-  background-color: transparent;
+  /* 
   position: fixed;
-  z-index: 99;
+
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 1rem; */
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 5px;
+  list-style: none;
+  color: rgb(154, 153, 153);
+  z-index: 9;
+  position: fixed;
+  top: 5px;
+  z-index: 99;
 }
 
 .nav-list {
@@ -12,14 +23,16 @@
   list-style: none;
   color: rgb(177, 151, 151);
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   gap: 30px;
   font-family: inherit;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 2px;
+  text-transform: capitalize;
 }
 
 .initial {
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: 800;
 }
@@ -29,4 +42,5 @@
 .i-list:hover {
   color: rgb(252, 190, 103);
   cursor: pointer;
+  border-bottom: 3px solid rgb(132, 114, 114);
 }

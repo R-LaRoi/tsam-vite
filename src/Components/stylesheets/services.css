@@ -1,3 +1,7 @@
+.link-serv {
+  padding-top: 4rem;
+}
+
 .title {
   color: rgba(136, 112, 112, 0.803);
   /* text-transform: lowercase; */
@@ -212,4 +216,53 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-bottom: 10px solid rgba(230, 207, 207, 0.803);
   }
+
+  .modal-form {
+  }
+}
+
+/*  modal css ----------------------------------------*/
+
+.modal-form {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  /* width: 600px;
+  height: 400px; */
+  text-align: center;
+  outline: none;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+  font-weight: 200;
+  border-radius: 20px;
+  color: rgb(132, 114, 114);
+  border-top: 30px solid rgba(146, 124, 124, 0.819);
+  border-bottom: 20px solid rgba(146, 124, 124, 0.819);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  line-height: 1.2;
+}
+
+.t-area {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgba(236, 223, 218, 0.58);
+}
+
+.x-btn {
+  position: relative;
+  margin-top: 10%;
+  left: 48%;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background-color: #b39b99;
+  font-weight: 200;
+}
+
+.x-btn:hover {
+  cursor: pointer;
+  background-color: rgb(242, 194, 118);
 }
