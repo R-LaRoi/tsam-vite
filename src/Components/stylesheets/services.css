@@ -4,7 +4,6 @@
 
 .title {
   color: rgba(136, 112, 112, 0.803);
-  /* text-transform: lowercase; */
   font-weight: 200;
   letter-spacing: 2px;
   margin-left: 2rem;
@@ -30,7 +29,6 @@
 }
 
 .description {
-  /* margin-top: -5rem; */
   border-radius: 20px;
   color: rgb(88, 82, 82);
   padding: 5rem;
@@ -38,16 +36,13 @@
   line-height: 1.5;
   letter-spacing: 1.5px;
   border-left: 20px solid #b39b99;
-  /* background-color: rgba(198, 167, 154, 0.871); */
   background-color: rgba(230, 207, 207, 0.803);
 }
 
 .-servtext {
   border-radius: 0;
-
   font-weight: 200;
   position: relative;
-  /* bottom: 254px; */
   color: rgb(106, 102, 102);
   text-align: center;
   line-height: 25px;
@@ -91,17 +86,14 @@
   text-align: center;
   gap: 75px;
   background-color: rgba(222, 193, 193, 0.803);
-  /* margin-top: -5rem; */
 }
 
 .pkg {
   padding: 2rem;
   background-color: rgb(255, 255, 255);
-  /* background-color: rgba(202, 180, 170, 0.899); */
   font-size: 1rem;
   border-radius: 20px;
   color: rgb(165, 156, 156);
-  /* color: #ffffffe3; */
   border-left: 10px solid rgba(201, 183, 183, 0.803);
 }
 
@@ -118,6 +110,55 @@
   font-weight: 400;
   text-decoration: underline;
 }
+
+/*  modal css ----------------------------------------*/
+
+.modal-form {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 85%;
+  text-align: center;
+  outline: none;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+  font-weight: 200;
+  border-radius: 20px;
+  color: rgb(132, 114, 114);
+  border-top: 30px solid rgba(146, 124, 124, 0.819);
+  border-bottom: 20px solid rgba(146, 124, 124, 0.819);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  line-height: 1.2;
+}
+
+.t-area {
+  padding: 10px;
+  width: inherit;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgba(236, 223, 218, 0.58);
+}
+
+.x-btn {
+  position: relative;
+  margin-top: 10%;
+  left: 48%;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background-color: #b39b99;
+  font-weight: 200;
+}
+
+.x-btn:hover {
+  cursor: pointer;
+  background-color: rgb(242, 194, 118);
+}
+
+/* media queries ------------------*/
+
 @media only screen and (min-width: 549px) and (max-width: 1024px) {
   .mission-img {
     display: none;
@@ -140,7 +181,6 @@
     padding: 2rem;
     text-align: center;
     gap: 75px;
-    /* margin-top: -5rem; */
   }
 }
 
@@ -167,7 +207,6 @@
   }
 
   .description {
-    /* margin-top: -6rem; */
     border-radius: 20px;
     color: rgb(109, 105, 105);
     padding: 2rem;
@@ -186,7 +225,6 @@
     padding: 2rem;
     text-align: center;
     gap: 75px;
-    /* margin-top: -5rem; */
   }
 
   .-servtext {
@@ -216,53 +254,4 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-bottom: 10px solid rgba(230, 207, 207, 0.803);
   }
-
-  .modal-form {
-  }
-}
-
-/*  modal css ----------------------------------------*/
-
-.modal-form {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  /* width: 600px;
-  height: 400px; */
-  text-align: center;
-  outline: none;
-  padding: 1rem;
-  background-color: rgb(255, 255, 255);
-  font-size: 0.8rem;
-  font-weight: 200;
-  border-radius: 20px;
-  color: rgb(132, 114, 114);
-  border-top: 30px solid rgba(146, 124, 124, 0.819);
-  border-bottom: 20px solid rgba(146, 124, 124, 0.819);
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  line-height: 1.2;
-}
-
-.t-area {
-  padding: 10px;
-  border: none;
-  outline: none;
-  border-radius: 10px;
-  background-color: rgba(236, 223, 218, 0.58);
-}
-
-.x-btn {
-  position: relative;
-  margin-top: 10%;
-  left: 48%;
-  border-radius: 50%;
-  border: none;
-  color: white;
-  background-color: #b39b99;
-  font-weight: 200;
-}
-
-.x-btn:hover {
-  cursor: pointer;
-  background-color: rgb(242, 194, 118);
 }
