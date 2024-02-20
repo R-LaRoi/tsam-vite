@@ -3,33 +3,33 @@ import './stylesheets/services.css'
 import mdkids from './assets/mdkidsdsk.jpg'
 import puzzle from './assets/2.png'
 import servPkg from './data'
+import { Link } from "react-router-dom";
 
 export default function Services () {
 
-let [showForm, setShowForm] = useState(false);
-let [showMessage, setShowMesage] = useState (false);
-let [exitForm, setExitForm] = useState(false);
+// let [showForm, setShowForm] = useState(false);
+// let [showMessage, setShowMesage] = useState (false);
+// let [exitForm, setExitForm] = useState(false);
 
 
+// function clickedBtn(event){
+//       event.preventDefault()
+//        return(setShowForm(!showForm))
 
-function clickedBtn(event){
-      event.preventDefault()
-       return(setShowForm(!showForm))
+// }
 
-}
+// function showThankYou(event){
+//       event.preventDefault()
+//          return(
+//             setShowMesage(!showMessage))
 
-function showThankYou(event){
-      event.preventDefault()
-         return(
-            setShowMesage(!showMessage))
+// }
 
-}
+// function closeForm(event){
+//    event.preventDefault()
+//       return (setExitForm(!exitForm))
 
-function closeForm(event){
-   event.preventDefault()
-      return (setExitForm(!exitForm))
-
-}
+// }
 
 
 let servCards = servPkg.map((service, index) => {
@@ -74,9 +74,14 @@ return(
             </ul>
        
          <div>  
-         <button className='appt-btn' onClick={clickedBtn}>
-            BOOK NOW
+              <button className='appt-btn'>
+            
+                <Link to="/linkconnect" className="appt-btn">BOOK NOW</Link>
+   
             </button>
+         {/* <button className='appt-btn' onClick={clickedBtn}>
+            BOOK NOW
+            </button> */}
             </div>
             </div> 
          </div>
@@ -84,7 +89,7 @@ return(
         
 <div className='form-modal '>
 
-{showForm ? 
+{/* {showForm ? 
 
  <form onSubmit={showForm} className='modal-form'>
 
@@ -121,6 +126,7 @@ return(
 
  : null }
 
+  </div>  */}
   </div> 
 
 <section className='-serv-options'>

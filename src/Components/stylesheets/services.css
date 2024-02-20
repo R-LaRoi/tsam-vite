@@ -63,20 +63,25 @@
 
 .appt-btn {
   margin-top: 20px;
-  padding: 12px;
+  padding: 5px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 10px;
   background-color: rgb(177, 151, 151);
   border: none;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 800;
-
   color: rgba(249, 245, 243, 0.871);
 }
 .serv-dsk-img {
   width: 100%;
 }
+.i-list {
+  color: rgb(118, 107, 107);
+}
 
+ul.icons {
+  margin-left: 55px;
+}
 .-serv-options {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -111,10 +116,12 @@
   text-decoration: underline;
 }
 
+.contact-pg {
+}
 /*  modal css ----------------------------------------*/
 
 .modal-form {
-  position: absolute;
+  /* position: absolute;
   left: 50%;
   transform: translate(-50%);
   width: 85%;
@@ -129,19 +136,10 @@
   border-top: 30px solid rgba(146, 124, 124, 0.819);
   border-bottom: 20px solid rgba(146, 124, 124, 0.819);
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  line-height: 1.2;
+  line-height: 1.2; */
 }
 
-.t-area {
-  padding: 10px;
-  width: inherit;
-  border: none;
-  outline: none;
-  border-radius: 10px;
-  background-color: rgba(236, 223, 218, 0.58);
-}
-
-.x-btn {
+/* .x-btn {
   position: relative;
   margin-top: 10%;
   left: 48%;
@@ -150,12 +148,12 @@
   color: white;
   background-color: #b39b99;
   font-weight: 200;
-}
+} */
 
-.x-btn:hover {
+/* .x-btn:hover {
   cursor: pointer;
   background-color: rgb(242, 194, 118);
-}
+} */
 
 /* media queries ------------------*/
 

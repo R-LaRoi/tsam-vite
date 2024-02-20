@@ -1,62 +1,100 @@
-.link-contact {
-  padding-top: 3rem;
-  background-color: rgb(253, 242, 232);
-  height: 100vh;
+.message {
+  padding: 1rem;
 }
-.contact-pg {
-  color: rgb(88, 82, 82);
-  padding-top: 5rem;
-  background-color: rgb(253, 242, 232);
-  display: grid;
-  grid-template-columns: 0.3fr 1fr;
-  font-weight: 200;
-  height: 80vh;
-  border-top: 20px solid rgb(201, 180, 180);
+
+.container-contact {
+  border: 10px solid rgb(210, 188, 188);
 }
 
 .trupti {
   position: relative;
-  /* left: 10rem; */
-  border: 10px solid rgb(230, 207, 207);
-  width: 70%;
+
+  border: 10px solid rgb(210, 188, 188);
+  width: 30%;
   border-radius: 50%;
-  margin-left: 20%;
   margin-top: 10%;
 }
 
 .abt-text {
   padding: 2rem;
-  font-size: 1.3rem;
 }
 
+.abt-column {
+  padding: 3.5rem;
+  font-size: 0.8rem;
+  text-align: center;
+  background-color: rgb(248, 248, 248);
+}
+
+ul.icons {
+  margin-left: 55px;
+}
 .icons {
   padding-top: 10px;
   list-style: none;
   display: flex;
+
   gap: 20px;
   color: rgb(201, 180, 180);
 }
 
+.link-contact {
+  border-top: 30px solid #f0e6e3;
+  border-bottom: 30px solid #f0e6e3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Poppins";
+  font-weight: 200;
+  background-color: rgba(236, 223, 218, 0.776);
+}
+
+.t-area {
+  padding: 10px;
+  width: 400px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgba(236, 223, 218, 0.776);
+}
+
+form {
+  color: rgb(122, 110, 110);
+  padding: 5rem;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
 @media only screen and (max-width: 768px) {
-  .contact-pg {
-    color: rgb(88, 82, 82);
-    padding-top: 5rem;
-    background-color: rgb(253, 242, 232);
-    display: grid;
-    grid-template-columns: 1fr;
-    font-weight: 200;
-    height: max-content;
-    padding-left: 2rem;
-    /* text-align: center; */
+  .modal-form {
+    padding: 0.5rem;
+    font-size: 0.8rem;
   }
 
+  .abt-column {
+    padding: 2.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 3rem;
+    color: rgb(122, 110, 110);
+    border: 10px solid white;
+  }
+  .t-area {
+    padding: 10px;
+    width: 300px;
+  }
+  .link-contact {
+    border-top: 50px solid #f0e6e3;
+    display: grid;
+    height: max-content;
+    grid-template-columns: 1fr;
+    font-family: "Poppins";
+    font-weight: 200;
+    margin-top: -4%;
+  }
   .trupti {
     position: relative;
-    /* left: 10rem; */
-    border: 5px solid rgb(230, 207, 207);
+    border: 5px solid rgb(186, 159, 159);
     width: 45%;
     border-radius: 50%;
-    margin-left: 10%;
     margin-top: 10%;
   }
 
@@ -65,5 +103,6 @@
     font-size: 1rem;
     margin-top: -25%;
     padding-top: 6rem;
+    color: whitesmoke;
   }
 }
