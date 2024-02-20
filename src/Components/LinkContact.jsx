@@ -12,7 +12,7 @@ return(
   <div div className='container-contact'>
 <Navbar />
   <section className='link-contact'>
-    <form  className='modal-form'>
+    <form  className='modal-form' name="contact" netlify>
     <div className="sub-text">   
      <img src={puzzle} width={80}></img> 
      <br/>
