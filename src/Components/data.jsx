@@ -8,13 +8,13 @@ const servPkg = [
     image:puzzle,
   title: 'CONNECTION PACKAGE',
   sub:  'Parenting Consultation',
-  text: "The connection package focuses on parent- child relationship, family systems theory, to enhance parenting skills to better manage behaviours from a connection lens."}
+  text: "The connection package focuses on parent-child relationships and family systems theory, to enhance parenting skills to better manage behaviours from a connection lens."}
 ,
 {id: 2,
       image:feet,
   title: 'CALM PACKAGE',
   sub:  'Baby Massage (BM)',
-  text: "The calm package focuses on baby massage (BM) – BM offers a warm & calm space for parents to connect with their little ones. B.M principles are based on attachment theory, power of touch. It has been evidenced to increase stimulation, muscle development, sleep & bond between parent & child."}
+  text: "The calm package focuses on baby massage. The baby massage offers a warm & calm space for parents to connect with their little ones. Baby Massage principles are based on attachment theory and the power of touch. It has been evidenced to increase stimulation, muscle development, sleep & bond between parent & child."}
 ,
 
 {id: 3,
