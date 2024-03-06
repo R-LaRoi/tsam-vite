@@ -8,7 +8,7 @@ const servPkg = [
     image:puzzle,
   title: 'CONNECTION PACKAGE',
   sub:  'Parenting Consultation',
-  text: "The connection package focuses on parent- child relationship, family systems theory, and so forth to enhance parenting skills to better manage behaviours from a connection lens."}
+  text: "The connection package focuses on parent- child relationship, family systems theory, to enhance parenting skills to better manage behaviours from a connection lens."}
 ,
 {id: 2,
       image:feet,
