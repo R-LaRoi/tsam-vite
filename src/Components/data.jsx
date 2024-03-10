@@ -14,7 +14,7 @@ const servPkg = [
       image:feet,
   title: 'CALM PACKAGE',
   sub:  'Baby Massage (BM)',
-  text: "The calm package focuses on baby massage. The baby massage offers a warm & calm space for parents to connect with their little ones. Baby Massage principles are based on attachment theory and the power of touch. It has been evidenced to increase stimulation, muscle development, sleep & bond between parent & child."}
+  text: "The calm package focuses on baby massage. Baby massage offers a warm & calm space for parents to connect with their little ones. Baby Massage principles are based on attachment theory and the power of touch. It has been evidenced to increase stimulation, muscle development, sleep & bond between parent & child."}
 ,
 
 {id: 3,
