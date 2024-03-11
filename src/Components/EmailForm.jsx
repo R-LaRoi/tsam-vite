@@ -3,8 +3,14 @@ import puzzle from './assets/3.png'
 import emailjs from '@emailjs/browser';
 
 
-export default function EmailForm (){
+function showMessage(){
+  alert('Your message has been sent! Thank you for contacting Trupti Samuel Consultancy.')
 
+
+}
+
+
+export default function EmailForm (){
 
   const [ name, setName,] = useState('');
   const [email, setEmail] = useState('');
@@ -17,14 +23,14 @@ export default function EmailForm (){
       const serviceId = 'service_5nejuft';
       const templateId = 'template_6eu8yic';
       const publicKey = 'zZoJj1ZT0k20TuUTP';
-
-  const templateParams = {
-
-    user_name : name,
-    user_email :email,
-    to_name: 'Trupti',
-    message: message,
+      const templateParams = {
+            user_name : name,
+            user_email :email,
+            to_name: 'Trupti',
+            message: message,
   }
+
+
 
 
 emailjs.send(serviceId, templateId, templateParams, publicKey).then((response)=> {
@@ -33,27 +39,42 @@ emailjs.send(serviceId, templateId, templateParams, publicKey).then((response)=>
   setName('');
   setEmail('');
   setMessage('');
+  
 
 }).catch((error) => {
   console.error('error sending email', error)
 });
+
+
+                  
 }
+
+
+
 
 return(
 
 
-  <form  className='modal-form' name="contact"  onSubmit={sendEmail}>
+  <form  className='modal-form' name="contact"  onSubmit={sendEmail}
+  
+  >
     <div className="sub-text">   
      <img src={puzzle} width={80}></img> 
      <br/>
-
-         {/* <div className='message'>
-         Your message has been sent. Thank you for choosing to connect with TSC! 
-         </div> */}
-         
-         <div className='message'>
+     
+     <div className='message'>
             For more information to see if I am the right person to support your family, feel free to connect with me.
             </div>
+
+            <div>
+              {}
+            </div>
+         
+   
+
+   
+         
+        
             
  </div>
    
@@ -98,7 +119,11 @@ return(
       >
     </textarea>
  <br/>
-<button type='submit' className='appt-btn'>send</button>
+<button 
+type='submit' 
+className='appt-btn'
+onClick={showMessage}
+>send</button>
     
 
 </form>
