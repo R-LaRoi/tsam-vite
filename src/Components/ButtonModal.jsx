@@ -10,7 +10,10 @@ export default function MessageButton() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button 
+      className = 'form-btn'
+      variant="primary" 
+      onClick={handleShow}>
     SEND
       </Button>
 

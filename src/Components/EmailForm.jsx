@@ -96,12 +96,9 @@ return(
       >
     </textarea>
  <br/>
-<button 
-type='submit' 
-className='appt-btn'
->
+
 <MessageButton />
-</button>
+
     
 
 </form>
