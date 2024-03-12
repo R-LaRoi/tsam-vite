@@ -1,13 +1,7 @@
 import React, { useState } from 'react';
 import puzzle from './assets/3.png'
 import emailjs from '@emailjs/browser';
-
-
-function showMessage(){
-  alert('Your message has been sent! Thank you for contacting Trupti Samuel Consultancy.')
-
-
-}
+import MessageButton from './ButtonModal';
 
 
 export default function EmailForm (){
@@ -31,8 +25,6 @@ export default function EmailForm (){
   }
 
 
-
-
 emailjs.send(serviceId, templateId, templateParams, publicKey).then((response)=> {
   console.log('email sent', response);
   console.log(templateParams)
@@ -43,21 +35,16 @@ emailjs.send(serviceId, templateId, templateParams, publicKey).then((response)=>
 
 }).catch((error) => {
   console.error('error sending email', error)
+  
 });
-
-
-                  
+     
 }
 
-
-
-
 return(
-
-
-  <form  className='modal-form' name="contact"  onSubmit={sendEmail}
-  
-  >
+  <form  
+      className='modal-form' 
+      name="contact"  
+      onSubmit={sendEmail} >
     <div className="sub-text">   
      <img src={puzzle} width={80}></img> 
      <br/>
@@ -65,17 +52,7 @@ return(
      <div className='message'>
             For more information to see if I am the right person to support your family, feel free to connect with me.
             </div>
-
-            <div>
-              {}
-            </div>
-         
-   
-
-   
-         
-        
-            
+       
  </div>
    
 <label htmlFor="Name">Name:</label> 
@@ -122,8 +99,9 @@ return(
 <button 
 type='submit' 
 className='appt-btn'
-onClick={showMessage}
->send</button>
+>
+<MessageButton />
+</button>
     
 
 </form>
