@@ -14,9 +14,9 @@ export default function EmailForm (){
   function sendEmail(e){
       e.preventDefault();
 
-      const serviceId = 'service_5nejuft';
-      const templateId = 'template_6eu8yic';
-      const publicKey = 'zZoJj1ZT0k20TuUTP';
+      const serviceId = 'service_jwg8jre';
+      const templateId = 'template_tt6v2bs';
+      const publicKey = '5rhl2kY4IYMifP_UZ';
       const templateParams = {
             user_name : name,
             user_email :email,
