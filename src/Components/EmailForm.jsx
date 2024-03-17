@@ -97,7 +97,7 @@ return(
     </textarea>
  <br/>
 
-<button type ="submit" >
+<button type ="submit"  className='appt-btn'>
 
 
 <MessageButton />
