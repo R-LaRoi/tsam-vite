@@ -97,9 +97,12 @@ return(
     </textarea>
  <br/>
 
+<button type ="submit" >
+
+
 <MessageButton />
 
-    
+   </button> 
 
 </form>
 
