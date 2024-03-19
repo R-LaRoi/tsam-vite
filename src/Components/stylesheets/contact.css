@@ -3,12 +3,11 @@
 }
 
 .container-contact {
-  border: 10px solid rgb(210, 188, 188);
+  border: 30px solid rgb(210, 188, 188);
 }
 
 .trupti {
   position: relative;
-
   border: 10px solid rgb(210, 188, 188);
   width: 30%;
   border-radius: 50%;
@@ -33,14 +32,11 @@ ul.icons {
   padding-top: 10px;
   list-style: none;
   display: flex;
-
   gap: 20px;
   color: rgb(201, 180, 180);
 }
 
 .link-contact {
-  border-top: 30px solid #f0e6e3;
-  border-bottom: 30px solid #f0e6e3;
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-family: "Poppins";
@@ -58,13 +54,17 @@ ul.icons {
 }
 
 form {
-  margin-left: 5%;
+  /* margin-left: 5%; */
   color: rgb(122, 110, 110);
   padding: 5rem;
   text-align: left;
   background-color: rgb(255, 255, 255);
 }
 @media only screen and (max-width: 768px) {
+  .container-contact {
+    border: 10px solid rgb(210, 188, 188);
+    border-top: 50px solid rgb(210, 188, 188);
+  }
   .modal-form {
     padding: 0.5rem;
     font-size: 0.8rem;
@@ -76,14 +76,14 @@ form {
     text-align: center;
     margin-top: 3rem;
     color: rgb(122, 110, 110);
-    border: 10px solid white;
+    /* border: 10px solid white; */
   }
   .t-area {
     padding: 10px;
     width: 300px;
   }
   .link-contact {
-    border-top: 50px solid #f0e6e3;
+    /* border-top: 50px solid #f0e6e3; */
     display: grid;
     height: max-content;
     grid-template-columns: 1fr;

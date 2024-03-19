@@ -11,7 +11,7 @@ return(
      <div>
       {/* <div className=''>
   Founder</div> */}
-  <img  className="trupti" src={trupti}></img> 
+  <img  className="trupti" src={trupti} ></img> 
 </div>
 <div className=''>
   <br></br>
