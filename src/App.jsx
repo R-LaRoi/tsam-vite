@@ -6,10 +6,7 @@ import LinkService from './Components/LinkService'
 import LinkContact from './Components/LinkContact'
 import Layout from './Components/Layout'
 import Homepage from './Homepage';
-import Contact from './Components/Contact';
-import Navbar from './Components/Navbar';
-import Header from './Components/Header';
-import Services from './Components/Services';
+import NewServices from './Components/NewServices';
 
 
 function App() {
@@ -24,7 +21,7 @@ function App() {
          <Route path="/" element={<Layout />}/>
            <Route exact path="/linkservices" element={<LinkService/>} />
            <Route exact path="/linkconnect" element={ <LinkContact />} />
-          
+                 <Route exact path="/newservices" element={ <NewServices />} />
      
      
        </Routes>

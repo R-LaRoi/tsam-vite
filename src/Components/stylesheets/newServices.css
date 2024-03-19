@@ -1,0 +1,56 @@
+.header-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #84675a;
+  color: #fff9f3;
+}
+
+.services-h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 800;
+  z-index: 99;
+  margin-top: 15%;
+}
+.newServ-img {
+  width: 100%;
+}
+
+.services-p {
+  text-align: center;
+  padding: 1rem;
+  font-weight: 200;
+  width: 80%;
+  margin-left: 10%;
+  list-style: none;
+}
+
+.serv-sec-2 {
+  height: 100vh;
+  background-color: #eee4d9;
+  color: #84675a;
+  font-size: 1.5rem;
+  padding-top: 10%;
+}
+
+.new-cards {
+  background-color: #84675a;
+}
+
+.services-h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 800;
+  z-index: 99;
+  margin-top: 5%;
+  color: #84675a;
+}
+
+@media only screen and (max-width: 992px) {
+  .header-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #84675a;
+    color: #fff9f3;
+  }
+}

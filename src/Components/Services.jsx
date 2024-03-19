@@ -4,6 +4,7 @@ import mdkids from './assets/mdkidsdsk.jpg'
 import puzzle from './assets/2.png'
 import servPkg from './data'
 import { Link } from "react-router-dom";
+import NewServices from './NewServices'
 
 export default function Services () {
 
@@ -54,10 +55,8 @@ return(
            
        
          <div>  
-              <button className='appt-btn'>
-            
-                <Link to="/linkconnect" className="appt-btn">BOOK NOW</Link>
-   
+              <button >
+                <Link to="/newservices" className='appt-btn'>LEARN MORE</Link>
             </button>
 
             </div>
@@ -72,5 +71,8 @@ return(
     {servCards}
 </section>
      </section>
+
 </section>
+
+
 )}

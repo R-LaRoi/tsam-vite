@@ -10,7 +10,7 @@ function Navbar() {
      
          </li>
        <li className="nav-list">
-          <Link to="/linkservices" className="nav-list ">services</Link>
+          <Link to="/newservices" className="nav-list ">services</Link>
          </li>
        <li className="nav-list">
         

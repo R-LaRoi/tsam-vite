@@ -4,7 +4,7 @@
 }
 
 .form-btn:hover {
-  background-color: rgba(67, 56, 56, 0.803);
+  /* background-color: rgba(67, 56, 56, 0.803); */
   border-color: transparent;
 }
 
@@ -67,16 +67,25 @@
 }
 
 .appt-btn {
-  margin-top: 20px;
-  padding: 5px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  border-radius: 10px;
-  background-color: rgb(177, 151, 151);
   border: none;
-  font-size: 1rem;
-  font-weight: 800;
-  color: rgba(249, 245, 243, 0.871);
+  background-color: rgba(136, 112, 112);
+  color: white;
+  text-decoration: none;
 }
+
+button {
+  color: bisque;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  background-color: rgba(136, 112, 112);
+}
+
+button:hover {
+  color: rgb(176, 161, 161);
+  background-color: rgb(114, 94, 94);
+}
+
 .serv-dsk-img {
   width: 100%;
 }
