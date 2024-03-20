@@ -14,7 +14,7 @@ return(
 
   <div className="col">
     <div className="card h-100">
-      <img src={service.image} className ="newServ-img img-fluid"/>
+      <img src={service.image}className ="newServ-img img-fluid"/>
       <div className="card-body -newcard">
         <h5 className="card-title services-h2">{service.title}</h5>
         <p className="card-text services-p">{service.text}</p>
