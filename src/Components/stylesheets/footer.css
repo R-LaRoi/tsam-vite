@@ -1,9 +1,8 @@
-#tsc-footer {
-  position: fixed;
-  z-index: 99;
-}
+.--footer {
+  margin: 0px;
 
-.-footer {
-  font-size: 5rem;
-  color: red;
+  color: rgb(127, 121, 121);
+  font: inherit;
+  font-size: 0.8rem;
+  height: 300px;
 }

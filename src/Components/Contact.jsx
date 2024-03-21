@@ -1,16 +1,15 @@
 import React from 'react'
 import './stylesheets/contact.css'
 import trupti from './assets/trupti.png'
-import Footer from './Footer'
+import Footer from "./Footer";
 
 export default function Contact () {
   
 return(
-
+<>
 <div className='abt-column'>
-
   <div>
-    <img  className="trupti img-fluid" src={trupti}  ></img> 
+    <img  className="trupti img-fluid" src={trupti}></img> 
      
      </div>
      
@@ -23,28 +22,14 @@ With over a decade of experience in child and family services; incorporating pro
 
 I am intentional in maintaining balance from a holistic perspective that is interwoven in the services I provide. Besides a passion in the child and family space, I spend time indulging in ocean adventures, travel, and hiking.
 
- <ul className='icons'>
-<li className='i-list'>
- <a href ='https://au.linkedin.com/in/trupti-samuel-98939747' target= 'blank_' className='i-list' > <i className="fa-brands fa-linkedin"></i></a>
-  
-  </li>
-  <li className='i-list'>
-    <a href ='@truptisamuelconsultancy@gmail.com ' target= 'blank_' className='i-list'><i className="fa-brands fa-instagram" ></i></a></li>
-  <li className='i-list'>   <a href ='@truptisamuelconsultancy@gmail.com ' target= 'blank_'  className='i-list'><i className="fa-brands fa-facebook"></i></a></li> 
-
-  <li className='i-list'>
-       <a href =' @truptisamuelconsultancy@gmail.com  ' target= 'blank_' className='i-list'>
-    <i className="fa-solid fa-envelope"></i></a></li>
-  </ul>
 </div> 
 
-      {/* <div className=''>
-  Founder</div> */}
-
-
 </div>
 
 </div>
+
+
+</>
 
 )
 

@@ -3,7 +3,6 @@ import puzzle from './assets/3.png'
 import emailjs from '@emailjs/browser';
 import MessageButton from './ButtonModal';
 
-
 export default function EmailForm (){
 
   const [ name, setName,] = useState('');
@@ -46,9 +45,9 @@ return(
       name="contact"  
       onSubmit={sendEmail} >
     <div className="sub-text">   
-     <img src={puzzle} width={80}></img> 
-     <br/>
      
+     <br/>
+     <img src={puzzle} width={80}></img> 
      <div className='message'>
             For more information to see if I am the right person to support your family, feel free to connect with me.
             </div>

@@ -1,49 +1,32 @@
-.-nav {
-}
-
 #nav-btn {
   background-color: transparent;
   border: none;
   position: fixed;
-  color: rgb(182, 132, 25);
+  color: rgba(241, 182, 54, 0.731);
   z-index: 99;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin: 20px;
+  font-weight: 800;
 }
 
 #nav-btn:hover {
   color: rgb(83, 61, 13);
 }
 .nav-list {
-  /* display: flex; */
+  display: flex;
   list-style: none;
   text-decoration: none;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 800;
+  font-weight: 400;
   color: rgb(177, 151, 151);
   text-transform: uppercase;
   letter-spacing: 2px;
-}
-
-.initial {
-  /* font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: 800; */
 }
 
 .nav-list:hover,
 .i-list:hover {
   color: rgb(252, 190, 103);
   cursor: pointer;
-  /* border-bottom: 3px solid rgb(132, 114, 114); */
 }
-
-/* .btn-primary {
-  font-size: 2rem;
-  background-color: transparent;
-  border: none;
-  padding: 20px;
-  color: rgb(252, 190, 103);
-} */

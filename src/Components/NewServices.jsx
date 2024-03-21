@@ -3,6 +3,8 @@ import newData from './newData'
 import domino from './assets/domino.jpeg'
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
+
 
 export default function NewServices () {
 
@@ -12,8 +14,8 @@ let arr = [(service.themes)]
 
 return(
 
-  <div className="col">
-    <div className="card h-100" style={{ color:"#84675a"}}>
+  <div className="col" key={service.id}>
+    <div className="card h-100 ns-card" style={{ color:"#84675a"}}>
       <img src={service.image}className ="newServ-img img-fluid"/>
       <div className="card-body -newcard">
         <h5 className="card-title services-h2">{service.title}</h5>
@@ -81,7 +83,7 @@ For early childhood and primary school educators we offer the Curious package.
  </div>
 
  </section>
-
+<Footer/>
  </main>
 
 )

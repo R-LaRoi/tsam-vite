@@ -38,6 +38,11 @@ const newData = [
 desc:"The calm package focuses on baby massage. Baby massage offers a warm & calm space for parents to connect with their little ones. Baby Massage principles are based on attachment theory and the power of touch. Research has shown it's potential to enhance stimulation, muscle development, sleep, and foster a strong bond between parent and child.",
 
 text: "Infant massage draws from attachment theory and intentional touch, backed by research becoming the central nervous system. If you find massages relieving this will resonate with you. You will gain techniques to eat muscle growth and soothe your baby for better sleep. Sessions also include talks on parental emotional regulation and self-care."
+,
+
+themes: [" - Attachment and bonding between parent and baby\n"	,
+	" - Parent emotional regulation \n", " - Parent self-care \n",]
+
    }
 ,
 
@@ -65,33 +70,33 @@ desc: "If you're an early childhood centre & you're seeking professional develop
 
 ]
 
-export const servPkg = [
+// export const servPkg = [
 
-  { id: 1,
+//   { id: 1,
     
-  title: 'CONNECTION PACKAGE',
-  sub:  'Parenting Consultation',
+//   title: 'CONNECTION PACKAGE',
+//   sub:  'Parenting Consultation',
 
 
 
-  }
-,
-{id: 2,
+//   }
+// ,
+// {id: 2,
      
-  title: 'CALM PACKAGE',
-  sub:  'Baby Massage (BM)',
-   desc: "The calm package focuses on baby massage. Baby massage offers a warm & calm space for parents to connect with their little ones. Baby Massage principles are based on attachment theory and the power of touch. Research has shown it's potential to enhance stimulation, muscle development, sleep, and foster a strong bond between parent and child.",
-  }
-,
+//   title: 'CALM PACKAGE',
+//   sub:  'Baby Massage (BM)',
+//    desc: "The calm package focuses on baby massage. Baby massage offers a warm & calm space for parents to connect with their little ones. Baby Massage principles are based on attachment theory and the power of touch. Research has shown it's potential to enhance stimulation, muscle development, sleep, and foster a strong bond between parent and child.",
+//   }
+// ,
 
-{id: 3,
+// {id: 3,
   
-  title: 'CURIOUS PACKAGE',
-  sub:  'Professional Development for Early & Primary School Educators',
-  desc: "If you're an early childhood centre & you're seeking professional development workshops; I tailor sessions based on the needs of the centre. Past workshops have focused on introduction to trauma, enhancing emotional and social development."}
+//   title: 'CURIOUS PACKAGE',
+//   sub:  'Professional Development for Early & Primary School Educators',
+//   desc: "If you're an early childhood centre & you're seeking professional development workshops; I tailor sessions based on the needs of the centre. Past workshops have focused on introduction to trauma, enhancing emotional and social development."}
 
 
 
-]
+// ]
 
 export default newData

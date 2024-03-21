@@ -14,7 +14,7 @@ function Homepage() {
     <Navbar/>
 <Header/>
 <Services/>
-
+<Footer/>
        </>
   )
 }

@@ -2,6 +2,11 @@ body {
   margin: 0;
   top: 0;
 }
+
+.newServ-img {
+  border-radius: 20px 20px 0px 0px;
+}
+
 .header-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -35,10 +40,17 @@ body {
 }
 
 .new-cards {
+  padding-bottom: 5rem;
   background-color: #84675a;
   white-space: pre-wrap;
 }
 
+.ns-card {
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: none;
+  border-bottom: 20px solid #eee4d9;
+}
 .services-h2 {
   font-size: 2rem;
   text-align: center;
@@ -64,5 +76,16 @@ body {
     color: #84675a;
     font-size: 1rem;
     padding-bottom: 4rem;
+  }
+  .ns-card {
+    border-radius: 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    border-bottom: 0px;
+  }
+
+  .newServ-img {
+    border-radius: 0px;
+    border-bottom: 20px solid #eee4d9;
   }
 }

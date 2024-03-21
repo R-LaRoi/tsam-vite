@@ -75,7 +75,7 @@ Are you looking for effective support in managing your child's behaviour? Look n
          <div> 
             
                <div className='sec-4'>
-               At Trupti Samuel Consultancy, we understand that raising toddlers can be extremely challenging and leave you feeling outright exhausted. Through an evidence-based approach, we will help you tackle the overwhelm and equip you with all the knowledge needed to navigate raising happy children from birth to six years old.
+               At Trupti Samuel Consultancy, we understand that raising children can be extremely challenging and leave you feeling outright exhausted. Through an evidence-based approach, we will help you tackle the overwhelm and equip you with all the knowledge needed to navigate raising happy children from birth to 14 year olds.
                <p>
                   Complimentary 30 minute initial consultation provided at no cost. 
                </p> 

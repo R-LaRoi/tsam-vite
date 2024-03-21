@@ -6,11 +6,13 @@
 }
 
 .message {
-  padding: 1rem;
+  margin: 20px 0px 20px 0px;
 }
 
 .container-contact {
   padding-top: 1rem;
+  background-color: rgba(236, 223, 218, 0.776);
+  height: 100vh;
 }
 
 .trupti {
@@ -26,13 +28,13 @@
 }
 
 ul.icons {
-  margin-left: 55px;
+  margin-left: 35%;
 }
 .icons {
-  padding-top: 10px;
+  padding-top: 0px;
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 30px;
   color: rgb(201, 180, 180);
 }
 
@@ -41,7 +43,7 @@ ul.icons {
   grid-template-columns: 1fr 1fr;
   font-family: "Poppins";
   font-weight: 200;
-  background-color: rgba(236, 223, 218, 0.776);
+  background-color: rgba(254, 254, 254, 0.827);
 }
 
 .t-area {
@@ -54,10 +56,10 @@ ul.icons {
 }
 
 form {
-  /* margin-left: 5%; */
   color: rgb(122, 110, 110);
   padding: 5rem;
   text-align: left;
+
   background-color: rgb(255, 255, 255);
 }
 
@@ -87,7 +89,6 @@ form {
     width: 300px;
   }
   .link-contact {
-    /* border-top: 50px solid #f0e6e3; */
     display: grid;
     height: max-content;
     grid-template-columns: 1fr;
@@ -109,5 +110,9 @@ form {
     padding: 5rem;
     text-align: center;
     background-color: rgb(255, 255, 255);
+  }
+
+  ul.icons {
+    margin-left: 20%;
   }
 }

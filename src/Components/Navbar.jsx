@@ -13,7 +13,7 @@ export default function Navbar() {
   </div>
   <div class="offcanvas-body tsc-name">
     <p>Learn more about our consultations. Schedule your appointment today!</p>
-<ul>
+<ul className="">
         <li> <Link to="/" className="nav-list">TSC</Link>  </li>
          <li> <Link to="/newservices" className="nav-list">Services</Link>  </li>
           <li> <Link to="/linkconnect" className="nav-list">Connect</Link>  </li>

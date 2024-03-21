@@ -2,10 +2,10 @@
 import React from 'react'
 import Contact from "./Contact";
 import Navbar from './Navbar';
-
-import EmailForm from './EmailForm';
 import Footer from './Footer';
-// import NewServices from './NewServices';
+import EmailForm from './EmailForm';
+
+
 
 
 
@@ -17,12 +17,13 @@ return(
 <Navbar />
   <div div className='container-contact'>
   <section className='link-contact'>
-    <EmailForm />
+ <EmailForm />
  <Contact/>
+
   </section>
-
-
+   <Footer />
   </div>
+
   </>
 )
 

@@ -5,7 +5,6 @@
 }
 
 .form-btn:hover {
-  /* background-color: rgba(67, 56, 56, 0.803); */
   border-color: transparent;
 }
 
@@ -53,7 +52,6 @@
   line-height: 1.5;
   letter-spacing: 1.5px;
   border-left: 20px solid #b39b99;
-  /* background-color: rgba(230, 207, 207, 0.803); */
 }
 
 .-servtext {
@@ -75,13 +73,15 @@
 
 .appt-btn {
   border: none;
-  background-color: rgba(136, 112, 112);
+  /* background-color: rgba(136, 112, 112); */
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 1px;
 }
 
 button {
-  color: bisque;
   border-radius: 10px;
   border: none;
   padding: 10px;
@@ -89,8 +89,8 @@ button {
 }
 
 button:hover {
-  color: rgb(176, 161, 161);
-  background-color: rgb(114, 94, 94);
+  /* color: rgb(176, 161, 161);
+  background-color: rgb(156, 143, 143); */
 }
 
 .serv-dsk-img {
@@ -100,9 +100,6 @@ button:hover {
   color: rgb(118, 107, 107);
 }
 
-ul.icons {
-  margin-left: 55px;
-}
 .-serv-options {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -112,22 +109,19 @@ ul.icons {
   text-align: center;
   gap: 75px;
   background-color: #ded3c492;
-  /* background-color: rgba(212, 197, 197, 0.72); */
 }
 
 .serv-header {
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr 1fr; */
   color: rgb(118, 107, 107);
   font-weight: 200;
-  /* padding: 5rem; */
+
   text-align: center;
   gap: 75px;
 }
 
 .pkg {
   padding: 1rem;
-  /* width: 400px; */
+
   background-color: #ffffff;
   font-size: 1rem;
   border-radius: 20px;
