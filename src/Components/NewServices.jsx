@@ -6,40 +6,36 @@ import Navbar from "./Navbar";
 
 export default function NewServices () {
 
-
 let servCards = newData.map((service, index) => {
   if(index < 3) { 
+let arr = [(service.themes)]
 
 return(
 
   <div className="col">
-    <div className="card h-100">
+    <div className="card h-100" style={{ color:"#84675a"}}>
       <img src={service.image}className ="newServ-img img-fluid"/>
       <div className="card-body -newcard">
         <h5 className="card-title services-h2">{service.title}</h5>
         <p className="card-text services-p">{service.text}</p>
-      </div>
-      {/* <div className="services-p">Themes & Theories:</div>
+   
 <ul className="services-p">
-      <li> {service.themes}</li>
+       <div className="services-p" style={{fontWeight: "400"}}>Themes & Theories:</div>
+<li>
+  <small >
+    {arr}
+      </small>
+   
+  
+    </li>
+
  </ul>
+      </div>
+      
   <div>
-  
-
-  </div> */}
-
-
-  
-  {/* {
-  <small>{service.themes}</small>
-
-  } */}
-  
-  
-    </div>
   </div>
-
-
+  </div>
+  </div>
 ) 
 }})
 
@@ -57,7 +53,7 @@ return(
 We offer three key services - discover if we are the right fit for your family by scheduling an appointment below. 
 <br/>
 Complimentary 30 minute initial consultation provided at no cost.
-<br/>
+<br/><br/>
  <button >
             
                 <Link to="/linkconnect" className='appt-btn'>BOOK NOW</Link>
@@ -77,16 +73,12 @@ Complimentary 30 minute initial consultation provided at no cost.
   For parents we provide two services the Connection package & Calm package.
 For early childhood and primary school educators we offer the Curious package.
 </div>
-
-  </div>
-
-  </section>
-
- <section className='display-cards new-cards'>
-  <div class="row row-cols-1 row-cols-md-3 g-4">
+</div>
+</section>
+<section className='display-cards new-cards'>
+<div className="row row-cols-1 row-cols-md-3 g-4">
 {servCards}
-
-  </div>
+ </div>
 
  </section>
 

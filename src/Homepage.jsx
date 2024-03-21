@@ -5,6 +5,7 @@ import Services from './Components/Services'
 import Contact from './Components/Contact'
 import Navbar from './Components/Navbar'
 import './App.css'
+import Footer from './Components/Footer'
 
 
 function Homepage() {
@@ -13,7 +14,7 @@ function Homepage() {
     <Navbar/>
 <Header/>
 <Services/>
-<Contact />
+
        </>
   )
 }

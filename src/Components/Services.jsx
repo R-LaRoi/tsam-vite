@@ -1,28 +1,31 @@
 import React, {useState} from 'react'
 import './stylesheets/services.css'
-import mdkids from './assets/mdkidsdsk.jpg'
-import puzzle from './assets/2.png'
-import servPkg from './data'
+import greenjumper from './assets/greenjumper.jpeg'
+import servPkg from './newData'
 import { Link } from "react-router-dom";
-import NewServices from './NewServices'
 
 export default function Services () {
 
 
-let servCards = servPkg.map((service, index) => {
+let servCards = servPkg.map((pack, index) => {
   if(index < 3) {
   
 return(
 
-<div className="pkg" key={service.id}>
-<img src={service.image} width={100}></img>
+<div className="pkg" key={pack.id}>
+<img src={pack.img} width={100}></img>
     <div className='serv-title'>
-    {service.title}
+    {pack.title}
       </div>
    <div className='sub-title'>
-     {service.sub}
+     {pack.sub}
       </div>  
-{service.text}
+{pack.desc}
+<div>
+   <br/><button >
+                <Link to="/newservices" className='appt-btn'>LEARN MORE</Link>
+            </button></div>
+
  </div>
 )
 
@@ -33,46 +36,69 @@ return(
 return(
 
 <section className='-serv-sect'>
-     <section className='services-'>
-         <div> 
-            <h1 className='title'>Services</h1>
-               <img src={mdkids} className='serv-dsk-img'/>
-               <div className='-servtext'>
-               Are you looking for effective support in managing your child's behaviour? Look no further. We provide practical guidance backed by 10 plus years of experience in working with children and families. We offer three key services - discover if we are the right fit for your family by scheduling an appointment below.  
-               <p>
-                  Complimentary 30 minute initial consultation provided at no cost. 
-               </p>
-               <ul className='servtxt-desc'>
-               <li > 
-                  For parents we provide two services the Connection package & Calm package. 
-                  
-                  </li>
-                  <li> 
+
+<header className="header-section">
+ <img src={greenjumper} className='newServ-img img-fluid' />
+<div >
+ <div className="services-h1">Services
+ </div>
+<p className='services-p'>
+Are you looking for effective support in managing your child's behaviour? Look no further. We provide practical guidance backed by 10 plus years of experience in working with children and families. <br/><br/>
+<p>
+     Complimentary 30 minute initial consultation provided at no cost. 
+                  <ul className='servtxt-desc'>
+               <li> 
+                  For parents we provide two services: The Connection Package &  the Calm Package. 
+               
                      For early childhood and primary school educators we offer the Curious package.
                      </li>
+          
    </ul>
+               </p> Discover if we are the right fit for your family by scheduling an appointment below.  
+<br/>
 
-           
-       
-         <div>  
+
+         <div>  <br/>
               <button >
                 <Link to="/newservices" className='appt-btn'>LEARN MORE</Link>
             </button>
 
             </div>
+
+</p>
+</div>
+</header>
+
+
+
+     <section className='serv-header'>
+         <div> 
+            
+               <div className='sec-4'>
+               At Trupti Samuel Consultancy, we understand that raising toddlers can be extremely challenging and leave you feeling outright exhausted. Through an evidence-based approach, we will help you tackle the overwhelm and equip you with all the knowledge needed to navigate raising happy children from birth to six years old.
+               <p>
+                  Complimentary 30 minute initial consultation provided at no cost. 
+               </p> 
+
+         <div>  
+              <button >
+                <Link to="/linkconnect" className='appt-btn'>Schedule Consultation</Link>
+            </button>
+
+            </div>
             </div> 
-         </div>
+     
 
         
 <div className='form-modal '>
   </div> 
 
 <section className='-serv-options'>
+   
     {servCards}
 </section>
-     </section>
+   </div>  </section>
 
 </section>
-
 
 )}

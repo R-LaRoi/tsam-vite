@@ -1,19 +1,21 @@
 import React from 'react'
 import './stylesheets/contact.css'
 import trupti from './assets/trupti.png'
-
+import Footer from './Footer'
 
 export default function Contact () {
   
 return(
 
 <div className='abt-column'>
+
+  <div>
+    <img  className="trupti img-fluid" src={trupti}  ></img> 
+     
+     </div>
+     
      <div>
-      {/* <div className=''>
-  Founder</div> */}
-  <img  className="trupti" src={trupti} ></img> 
-</div>
-<div className=''>
+      <div className='c-paragraph'>
   <br></br>
          <small><b>TRUPTI SAMUEL </b></small>
            <small> | FOUNDER</small>  <br></br>
@@ -34,6 +36,12 @@ I am intentional in maintaining balance from a holistic perspective that is inte
        <a href =' @truptisamuelconsultancy@gmail.com  ' target= 'blank_' className='i-list'>
     <i className="fa-solid fa-envelope"></i></a></li>
   </ul>
+</div> 
+
+      {/* <div className=''>
+  Founder</div> */}
+
+
 </div>
 
 </div>

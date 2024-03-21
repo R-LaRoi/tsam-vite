@@ -1,0 +1,9 @@
+#tsc-footer {
+  position: fixed;
+  z-index: 99;
+}
+
+.-footer {
+  font-size: 5rem;
+  color: red;
+}

@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  top: 0;
+}
 .header-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -12,9 +16,6 @@
   z-index: 99;
   margin-top: 15%;
 }
-/* .newServ-img {
-  width: 100%;
-} */
 
 .services-p {
   text-align: center;
@@ -35,6 +36,7 @@
 
 .new-cards {
   background-color: #84675a;
+  white-space: pre-wrap;
 }
 
 .services-h2 {
@@ -52,5 +54,15 @@
     grid-template-columns: 1fr;
     background-color: #84675a;
     color: #fff9f3;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .serv-sec-2 {
+    height: max-content;
+    background-color: #eee4d9;
+    color: #84675a;
+    font-size: 1rem;
+    padding-bottom: 4rem;
   }
 }
