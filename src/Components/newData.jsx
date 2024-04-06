@@ -14,9 +14,9 @@ const newData = [
      title: 'CONNECTION PACKAGE',
      sub:  'Parenting Consultation',
   
-  desc: "The connection package focuses on parent-child relationships and family systems theory, to enhance parenting skills to better manage behaviours from a connection lens.",
+  desc: "The Connection package focuses on parent-child relationships and family systems theory, to enhance parenting skills to better manage behaviours from a connection lens.",
 
-  text: "The connection package assesses family dynamics, parenting styles, and child development. Following a concise family intake, strategies are provided to increase parenting capacity and to activate child development skills.",
+  text: "The Connection package assesses family dynamics, parenting styles, and child development. Following a concise family intake, strategies are provided to increase parenting capacity and to activate child development skills.",
 
     themes:[
       " - Attachment and Child development \n", 
@@ -35,7 +35,7 @@ const newData = [
   title: 'CALM PACKAGE',
   sub:  'Baby Massage (BM)',
 
-desc:"The calm package focuses on baby massage. Baby massage offers a warm & calm space for parents to connect with their little ones. Baby Massage principles are based on attachment theory and the power of touch. Research has shown it's potential to enhance stimulation, muscle development, sleep, and foster a strong bond between parent and child.",
+desc:"The Calm package focuses on baby massage. Baby massage offers a warm & calm space for parents to connect with their little ones. It uses principles based on attachment theory and the power of touch. Research has shown its potential to enhance stimulation, muscle development, sleep, and foster a strong bond between parent and child.",
 
 text: "Baby massage draws from theories on attachment and intentional touch, and has the potential to calm the central nervous system. If you find massages relieving, this will resonate without you. You will learn techniques to increase muscle growth and soothe your baby for better sleep."
 ,

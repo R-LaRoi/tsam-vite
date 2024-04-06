@@ -10,7 +10,8 @@ body {
 .header-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #84675a;
+  /* background-color: #84675a; */
+  background-color: #83675a;
   color: #fff9f3;
 }
 

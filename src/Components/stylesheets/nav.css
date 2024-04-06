@@ -1,8 +1,8 @@
 #nav-btn {
   background-color: transparent;
   border: none;
-  position: fixed;
-  color: rgba(241, 182, 54, 0.731);
+  /* position: fixed; */
+  color: #83675a;
   z-index: 99;
   font-size: 1.7rem;
   margin: 20px;
@@ -10,7 +10,7 @@
 }
 
 #nav-btn:hover {
-  color: rgb(83, 61, 13);
+  color: #d7a497;
 }
 .nav-list {
   display: flex;
@@ -25,6 +25,9 @@
   letter-spacing: 2px;
 }
 
+.ul-list-menu {
+  list-style: none;
+}
 .nav-list:hover,
 .i-list:hover {
   color: rgb(252, 190, 103);

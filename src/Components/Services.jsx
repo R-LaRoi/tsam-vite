@@ -43,10 +43,11 @@ return(
  <div className="services-h1">Services
  </div>
 <p className='services-p'>
-Are you looking for effective support in managing your child's behaviour? Look no further. We provide practical guidance backed by 10 plus years of experience in working with children and families. <br/><br/>
+Are you looking for effective support in managing your child's behaviour? Look no further. We provide practical guidance backed by ten plus years of experience in working with children and families. <br/><br/>
 <p>
-     Complimentary 30 minute initial consultation provided at no cost. 
-                  <ul className='servtxt-desc'>
+    <strong>
+                  Complimentary 30 minute initial consultation provided at no cost. </strong>
+                  <ul className='servtxt-desc'><br/>
                <li> 
                   For parents we provide two services: The Connection Package &  the Calm Package. 
                
@@ -75,9 +76,9 @@ Are you looking for effective support in managing your child's behaviour? Look n
          <div> 
             
                <div className='sec-4'>
-               At Trupti Samuel Consultancy, we understand that raising children can be extremely challenging and leave you feeling outright exhausted. Through an evidence-based approach, we will help you tackle the overwhelm and equip you with all the knowledge needed to navigate raising happy children from birth to 14 year olds.
-               <p>
-                  Complimentary 30 minute initial consultation provided at no cost. 
+               At Trupti Samuel Consultancy, we understand that raising children can be extremely challenging and leave you feeling outright exhausted. Through an evidence-based approach, we will help you tackle the overwhelm and equip you with all the knowledge needed to navigate raising happy children from birth to fourteen year olds.
+               <p ><strong>
+                  Complimentary 30 minute initial consultation provided at no cost. </strong>
                </p> 
 
          <div>  

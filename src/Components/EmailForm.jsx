@@ -49,7 +49,7 @@ return(
      <br/>
      <img src={puzzle} width={80}></img> 
      <div className='message'>
-            For more information to see if I am the right person to support your family, feel free to connect with me.
+            For more information to see if we are the the right service to support your family, please contact us.
             </div>
        
  </div>
@@ -57,6 +57,7 @@ return(
 <label htmlFor="Name">Name:</label> 
 <br/>
   <input  
+     required  
   placeholder = '' 
   type="text" 
   id="fname" 
@@ -69,7 +70,8 @@ return(
   
   htmlFor="Name">Email:</label> 
 <br/>
-    <input  
+    <input 
+    required  
     placeholder = '' 
     type="text" 
     id="fname" 
@@ -80,12 +82,14 @@ return(
   /> 
  
 
+{/* <input required type="email" id="defaultFormContactEmailEx" className="form-control" name="user_email"/> */}
+
   <br/>  <label 
   
   htmlFor="Name">Message:</label>  <br/>
 
    <textarea  
- 
+    required  
     className='t-area' 
     name="message" 
     id="message" 

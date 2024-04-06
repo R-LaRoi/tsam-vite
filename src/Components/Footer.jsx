@@ -21,7 +21,7 @@ return (
                     </div>
                    <div className="tsc-name">Trupti Samuel Consultancy</div>
             <p className="">
-              At Trupti Samuel consultancy our mission is to be a source of assistance to navigate emotional and social challenges in children. 
+              At Trupti Samuel Consultancy our mission is to be a source of assistance to navigate emotional and social challenges in children. 
             </p>
 
 
@@ -33,16 +33,12 @@ return (
   <li className='i-list'>
     <a href ='@truptisamuelconsultancy@gmail.com ' target= 'blank_' className='i-list'><i className="fa-brands fa-instagram" ></i></a></li>
   <li className='i-list'>   <a href ='@truptisamuelconsultancy@gmail.com ' target= 'blank_'  className='i-list'><i className="fa-brands fa-facebook"></i></a></li> 
-
-  <li className='i-list'>
-       <a href =' @truptisamuelconsultancy@gmail.com  ' target= 'blank_' className='i-list'>
-    <i className="fa-solid fa-envelope"></i></a></li>
   </ul>
             <section className="text-center mb-5  tsc-name">
       </section> 
           </div>
         </div>
-         <div className="tsc-name"><small>©2024</small></div>
+         <div className="tsc-name"><small>© TSC 2024</small></div>
       </section>
     </div>
 
