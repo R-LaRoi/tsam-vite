@@ -81,7 +81,7 @@ We offer three key services - discover if we are the right fit for your family b
     <br/><br/>
     <div className='serv-subtext'>
   For parents we provide two services The Connection Package & The Calm Package.
-For early childhood and primary school educators we offer the Curious Package.
+For early childhood and primary school educators we offer The Curious Package.
 </div>
 </div>
 </section>
