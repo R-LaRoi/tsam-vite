@@ -22,7 +22,12 @@ return(
         <p className="card-text services-p">{service.text}</p>
    
 <ul className="services-p">
-       <div className="services-p" style={{fontWeight: "400"}}>Themes & Theories:</div>
+       <div className="services-p" style={{fontWeight: "400"}}>
+        <strong> Themes & Theories</strong>
+       
+        
+        
+        </div>
 <li>
   <small >
     {arr}
@@ -67,12 +72,15 @@ We offer three key services - discover if we are the right fit for your family b
 
 <section className='serv-sec-2'>
   <div className='services-p'>
-    Toddlerhood can be a complex time, and sometimes it can feel like you are stumbling around in the dark and waiting for the light at the end of the tunnel. In our personalised parent consults, we love nothing more than turning on the flashlights in any relentless toddler situation. These sessions will provide you with information backed by research to support your daily interactions with your toddler to ensure they are far less stressful!
+    Parenting presents a myriad of challenges, from navigating tantrums to fostering independence, balancing discipline and adapting to ever-changing developmental stages. 
+    It requires patience, empathy and resilience to guide children through life's ups and downs. 
+
+    Sessions will provide you with information backed by research to support your daily interactions with your toddler to ensure they are far less stressful!
     
     We provide practical guidance backed by ten plus years of experience in working with children and families. 
     <br/><br/>
     <div className='serv-subtext'>
-  For parents we provide two services the Connection Package & the Calm Package.
+  For parents we provide two services The Connection Package & The Calm Package.
 For early childhood and primary school educators we offer the Curious Package.
 </div>
 </div>

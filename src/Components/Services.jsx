@@ -49,9 +49,9 @@ Are you looking for effective support in managing your child's behaviour? Look n
                   Complimentary 30 minute initial consultation provided at no cost. </strong>
                   <ul className='servtxt-desc'><br/>
                <li> 
-                  For parents we provide two services: The Connection Package &  the Calm Package. 
+                  For parents we provide two services: The Connection Package &  The Calm Package. 
                
-                     For early childhood and primary school educators we offer the Curious package.
+                     For early childhood and primary school educators we offer The Curious Package.
                      </li>
           
    </ul>
