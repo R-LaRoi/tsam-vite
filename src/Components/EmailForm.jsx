@@ -9,7 +9,7 @@ export default function EmailForm (){
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('')
 
-  
+
   function sendEmail(e){
       e.preventDefault();
 
@@ -38,6 +38,13 @@ emailjs.send(serviceId, templateId, templateParams, publicKey).then((response)=>
 });
      
 }
+
+
+  function runthisfunction(){
+
+  
+    
+  }
 
 return(
   <form  
@@ -100,10 +107,8 @@ return(
     </textarea>
  <br/>
 
-<button type ="submit"  className='appt-btn'>
-
+<button type ="submit"  className='appt-btn' onSubmit={runthisfunction}>
 send
-
    </button> 
 
 </form>

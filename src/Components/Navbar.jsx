@@ -3,7 +3,7 @@ import './stylesheets/nav.css'
 
 export default function Navbar() {
   return  (
-<>
+<section className="nav-container">
     <button className="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" id="nav-btn">TSC <i className="fa-solid fa-bars"></i></button>
 
 <div className="offcanvas offcanvas-start" data-bs-scroll="true" tabIndex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
@@ -22,7 +22,7 @@ export default function Navbar() {
   
 </div>
 
-</>
+</section>
   )
 
 
