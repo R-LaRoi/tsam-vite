@@ -6,9 +6,6 @@ import Footer from './Footer';
 import EmailForm from './EmailForm';
 
 
-
-
-
 export default function LinkContact()  {
 
   

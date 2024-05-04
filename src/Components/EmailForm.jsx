@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import puzzle from './assets/3.png'
 import emailjs from '@emailjs/browser';
-import MessageButton from './ButtonModal';
+// import MessageButton from './ButtonModal';
 
 export default function EmailForm (){
 
@@ -102,7 +102,7 @@ return(
 
 <button type ="submit"  className='appt-btn'>
 
-<MessageButton />
+send
 
    </button> 
 
