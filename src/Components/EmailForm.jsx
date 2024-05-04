@@ -1,18 +1,30 @@
 import React, { useState } from 'react';
 import puzzle from './assets/3.png'
 import emailjs from '@emailjs/browser';
-// import MessageButton from './ButtonModal';
-
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 export default function EmailForm (){
 
   const [ name, setName,] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('')
+ let [showForm, setShowForm] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
+function clickedBtn(){
+
+
+return(
+  <div>
+{sendEmail ? (setShowForm(!showForm)): showForm}
+  </div>
+)
+
+}
 
   function sendEmail(e){
       e.preventDefault();
-
       const serviceId = 'service_jwg8jre';
       const templateId = 'template_tt6v2bs';
       const publicKey = '5rhl2kY4IYMifP_UZ';
@@ -30,7 +42,12 @@ emailjs.send(serviceId, templateId, templateParams, publicKey).then((response)=>
   setName('');
   setEmail('');
   setMessage('');
-  
+
+
+
+
+
+
 
 }).catch((error) => {
   console.error('error sending email', error)
@@ -39,12 +56,6 @@ emailjs.send(serviceId, templateId, templateParams, publicKey).then((response)=>
      
 }
 
-
-  function runthisfunction(){
-
-  
-    
-  }
 
 return(
   <form  
@@ -89,7 +100,7 @@ return(
   /> 
  
 
-{/* <input required type="email" id="defaultFormContactEmailEx" className="form-control" name="user_email"/> */}
+
 
   <br/>  <label 
   
@@ -107,11 +118,38 @@ return(
     </textarea>
  <br/>
 
-<button type ="submit"  className='appt-btn' onSubmit={runthisfunction}>
+<button type ="submit"  className='appt-btn' onClick={clickedBtn} >
 send
    </button> 
 
+<div className='form-modal '>
+{showForm ? 
+<section>
+ <Modal
+        show={showForm}
+        onHide={handleShow}
+        backdrop="static"
+        keyboard={false}
+      >
+       
+          <Modal.Title>TSC</Modal.Title>
+
+        <Modal.Body>
+      Thank you for contacting TS Consultancy. Your message has been sent. 
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={clickedBtn}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
+</section>
+  
+ : null}
+</div>
 </form>
+
+
 
 )
 

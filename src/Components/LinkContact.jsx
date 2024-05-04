@@ -7,19 +7,19 @@ import EmailForm from './EmailForm';
 
 
 export default function LinkContact()  {
-
   
 return(
 <>
 <Navbar />
-  <div div className='container-contact'>
+  <section className='container-contact'>
   <section className='link-contact'>
  <EmailForm />
+
  <Contact/>
 
   </section>
    <Footer />
-  </div>
+  </section>
 
   </>
 )

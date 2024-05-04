@@ -18,7 +18,7 @@ export default function MessageButton() {
       </Button>
 
       <Modal
-        show={show}
+        show={showForm}
         onHide={handleClose}
         backdrop="static"
         keyboard={false}
