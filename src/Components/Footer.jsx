@@ -31,7 +31,7 @@ return (
   
   </li>
   <li className='i-list'>
-    <a href ='https://www.instagram.com/benevolent_au/?hl=en ' target= 'blank_' className='i-list'><i className="fa-brands fa-instagram" ></i></a></li>
+    <a href ='https://www.instagram.com/tsc.parentingconsultancy/?hl=en ' target= 'blank_' className='i-list'><i className="fa-brands fa-instagram" ></i></a></li>
   <li className='i-list'>   <a href ='@truptisamuelconsultancy@gmail.com ' target= 'blank_'  className='i-list'><i className="fa-brands fa-facebook"></i></a></li> 
   </ul>
             <section className="text-center mb-5  tsc-name">
